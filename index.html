@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Papa! 🎉</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="particles"></div>
+    
+    <div class="music-toggle">
+        <section class="music-section">
+            <button id="musicBtn">
+                <i class="fas fa-music"></i>
+                <span>Play Birthday Song</span>
+            </button>
+            <div class="music-visualizer">
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+                <div class="visualizer-bar"></div>
+            </div>
+            <audio id="bgMusic" preload="auto" loop>
+                <source src="Birthday Song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </div>
+
+    <div class="decorative-corner top-left"></div>
+    <div class="decorative-corner top-right"></div>
+    <div class="decorative-corner bottom-left"></div>
+    <div class="decorative-corner bottom-right"></div>
+
+    <main class="container">
+        <section class="welcome-section">
+            <div class="birthday-crown">👑</div>
+            <h1 class="main-title">
+                <span class="sparkle-text">Happy Birthday</span>
+                <span class="name">Papa!</span>
+            </h1>
+            
+            <div class="birthday-date">
+                <div class="decorative-line left"></div>
+                <div class="date-content">
+                    <h2 class="gradient-text">Ram Kumar Singh</h2>
+                    <p class="date shine-effect">23rd March</p>
+                </div>
+                <div class="decorative-line right"></div>
+            </div>
+
+            <section class="countdown-section">
+                <h2>Countdown to March 23rd</h2>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <span class="label">Hrs</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <span class="label">Min</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <span class="label">Sec</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="message-section">
+            <div class="message-card">
+                <div class="card-decoration top"></div>
+                <h3 class="message-title">A Message from Your Son</h3>
+                <div class="message-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="message">
+                        Dear Papa,<br><br>
+                        On your special day, I want to express my deepest love and gratitude for being the amazing father you are. 
+                        Your guidance, wisdom, and unconditional love have shaped me into who I am today. 
+                        You're not just my father; you're my hero, my inspiration, and my best friend.<br><br>
+                        Wishing you a day filled with joy, laughter, and all the happiness you deserve!<br><br>
+                        With love,<br>
+                        <span class="signature">Keshav & Aditya Kumar Singh</span>
+                    </p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="card-decoration bottom"></div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Precious Moments</h2>
+            <div class="photo-gallery">
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 01.jpg" alt="Memory 1" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 02.jpg" alt="Memory 2" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 03.jpg" alt="Memory 3" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 04.jpg" alt="Memory 4" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 05.jpg" alt="Memory 5" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-card">
+                        <img src="image 06.jpg" alt="Memory 6" loading="lazy">
+                        <div class="photo-overlay">
+                            <span class="photo-caption">Beautiful Memory 6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gift-section">
+            <button id="giftBtn" class="gift-button">
+                <div class="button-content">
+                    <span class="gift-text">Open Gift</span>
+                    <span class="gift-emoji">🎁</span>
+                </div>
+                <div class="button-glow"></div>
+            </button>
+            
+            <div id="giftReveal" class="gift-reveal">
+                <h3 class="reveal-title">Your Favorite Foods! 😋</h3>
+                <div class="food-images">
+                    <div class="food-card">
+                        <img src="Brryani.jpg" alt="Favorite Food 1" loading="lazy">
+                        <div class="food-overlay">
+                            <span class="food-icon">🍽️</span>
+                        </div>
+                    </div>
+                    <div class="food-card">
+                        <img src="agra-1.jpg" alt="Favorite Food 2" loading="lazy">
+                        <div class="food-overlay">
+                            <span class="food-icon">🍽️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="floating-elements">
+        <div class="balloon" style="--delay: 2s; --position: 20%"></div>
+        <div class="balloon" style="--delay: 4s; --position: 40%"></div>
+        <div class="balloon" style="--delay: 6s; --position: 60%"></div>
+        <div class="balloon" style="--delay: 8s; --position: 80%"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
